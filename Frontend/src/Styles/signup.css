@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.up{
+    height: 600px;
+    width: 400px;
+    border: 1px solid #000;
+    margin: 50px 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+.up h1{
+    margin: 20px 130px ;
+}
+.fill{
+    margin:30px 30px;  
+}
+.fullname input{
+    border: none;
+    padding: 10px 50px;
+    border-bottom: 1px solid #797575;   
+}
+.first input{
+    border: none;
+    padding: 10px 50px;
+    border-bottom: 1px solid #797575; 
+}
+.last input{
+    border: none;
+    padding: 10px 50px;
+    border-bottom: 1px solid #797575; 
+}
+.Email input{
+    border: none;
+    padding: 10px 50px;
+    border-bottom: 1px solid #797575; 
+}
+.pass input{
+    border: none;
+    padding: 10px 50px;
+    border-bottom: 1px solid #797575; 
+}
+
+.password input{
+    border: none;
+    padding: 10px 50px;
+    border-bottom: 1px solid #797575; 
+}
+.btn button{
+    padding: 5px 110px;
+    border-radius: 5px;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 5px 10px;
+}
+.navlinks p{
+    margin: 0px 20px;
+}
