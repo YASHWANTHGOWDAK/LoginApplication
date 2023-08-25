@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "List": "html",
+      "id": 1
+    },
+    {
+      "List": "css",
+      "id": 2
+    },
+    {
+      "List": "java script",
+      "id": 3
+    },
+    {
+      "List": "react js",
+      "id": 4
+    },
+    {
+      "List": "Node js",
+      "id": 5
+    },
+    {
+      "List": "Express js",
+      "id": 6
+    }
+  ]
+}

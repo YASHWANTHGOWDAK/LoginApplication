@@ -13,7 +13,7 @@ const SignIn = () => {
 
 
   let Load = (e) => {
-    // e.preventDefault()
+    e.preventDefault()
 
     let data ={
       email:email.current.value,
@@ -26,7 +26,7 @@ const SignIn = () => {
         if (res.data.status == 200) {
 
           alert(res.data.message)
-          navigate('/login')
+          navigate('/tasklist')
 
         } else {
           alert(res.data.message)
@@ -60,13 +60,14 @@ const SignIn = () => {
 
             <div className="btn">
               <button>Sign In</button> <br />
+              
             </div>
 
           </div>
 
           <div className="navlinks">
             <p>Don't have Account ?</p>
-            <Link to='/sign_up'>Sign Up</Link>
+            <Link to='/sign_up' className='button'>Sign Up</Link>
           </div>
 
         </form>

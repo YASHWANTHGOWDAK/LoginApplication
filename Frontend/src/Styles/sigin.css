@@ -40,10 +40,12 @@ overflow: hidden;
 .forgot {
  margin:0px 100px;
 }
-.btn button{
+.btn button {
     padding: 5px 110px;
     border-radius: 5px;
 }
+
+
 .navlinks{
     display: flex;
     align-items: center;
